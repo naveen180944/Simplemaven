@@ -16,6 +16,7 @@ public class Google {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
+		System.out.println("Page title is "+driver.getTitle());
 			
 	}
 }
